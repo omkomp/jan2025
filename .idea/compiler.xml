@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="afisha" />
         <module name="testAuto1" />
+        <module name="auto2" />
       </profile>
     </annotationProcessing>
   </component>
