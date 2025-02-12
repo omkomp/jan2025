@@ -1,12 +1,11 @@
 package Lesson8TestAli;
-
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
     private SelenideElement profilButton = $(By.xpath("//span[.='Мой Профиль']"));
@@ -16,6 +15,7 @@ public class LoginPage {
     private SelenideElement authButton = $(By.xpath("//button[@class=\"ali-kit_Button__button__18ub7i ali-kit_Button__size-l__18ub7i contained ali-kit_Button__primary__18ub7i batman-v2_index__login-submit__1a53tq\"]"));
     private SelenideElement firstPush = $(By.xpath("//div[.='Отклонить']"));
 
+
     @Step("Авторизация на сайте ДНС")
     public LoginPage authorization(String l, String p) {
         firstPush.click();
@@ -24,6 +24,8 @@ public class LoginPage {
         enterLogin.sendKeys(l);
         enterPassword.sendKeys(p);
         authButton.click();
+//        String currentUrl= Selenide.switchTo().parentFrame().getCurrentUrl();
+//        currentUrl.contains("dns");
         return this;
     }
 
@@ -40,12 +42,14 @@ public class LoginPage {
         logoMain.click();
         searchLine.setValue("redmi 9").pressEnter();
         Selenide.switchTo().parentFrame().manage().window().maximize();
+
         pushFooter.click();
         goods.click();
         Selenide.switchTo().window(1);
         quantity.click();
         addToCart.click();
         goCart.click();
+
         //  Selenide.sleep(9000);
         return this;
     }
@@ -57,6 +61,8 @@ public class LoginPage {
     public LoginPage checkOrder() {
         checkCart.shouldBe(Condition.visible);
         checkGoods.shouldBe(Condition.visible);
+//        Selenide.executeJavaScript("let element = document.evaluate(\"//h3[.='Корзина (1)']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null)\n" +
+//                "element.singleNodeValue.remove()");
         return this;
     }
 

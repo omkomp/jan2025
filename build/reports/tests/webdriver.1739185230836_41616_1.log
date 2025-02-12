@@ -1,0 +1,167 @@
+[1739185231.285][INFO]: Starting ChromeDriver 132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408}) on port 24342
+[1739185231.286][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1739185231.295][INFO]: ChromeDriver was started successfully on port 24342
+[1739185231.700][INFO]: [eb2e900d353e787a66cea7f1c341af72] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--disable-search-engine-choice-screen", "--unsafely-disable-devtools-self-xss-warnings", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "autofill.credit_card_enabled": false,
+               "autofill.profile_enabled": false,
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Air 13\\git\\testAuto1\\build\\downloads\\1739185230658_41616_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "profile.password_manager_leak_detection": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1739185231.701][INFO]: Browser search. Trying... C:\Users\Air 13\.cache\selenium\chromedriver\win64\132.0.6834.159\chrome.exe
+[1739185231.701][INFO]: Browser search. Trying... C:\Users\Air 13\.cache\selenium\chromedriver\win64\132.0.6834.159\chrome.exe
+[1739185231.701][INFO]: Browser search. Trying... C:\Users\Air 13\.cache\selenium\chromedriver\win64\132.0.6834.159\chromium.exe
+[1739185231.706][INFO]: Browser search. Trying... C:\Users\Air 13\AppData\Local\Google\Chrome\Application\chrome.exe
+[1739185231.706][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1739185231.707][INFO]: Browser search. Trying... C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1739185231.707][INFO]: Browser search. Found at  C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1739185231.708][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Air 13\\git\\testAuto1\\build\\downloads\\1739185230658_41616_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false,
+      "password_manager_leak_detection": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1739185231.709][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1739185231.711][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1739185231.711][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1739185231.714][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-search-engine-choice-screen --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --unsafely-disable-devtools-self-xss-warnings --use-mock-keychain --user-data-dir="C:\Users\AIR13~1\AppData\Local\Temp\scoped_dir31468_222427453" --window-size=1920,1080 data:,
+[1739185232.640][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1739185232.675][INFO]: [eb2e900d353e787a66cea7f1c341af72] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "132.0.6834.160",
+      "chrome": {
+         "chromedriverVersion": "132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408})",
+         "userDataDir": "C:\\Users\\AIR13~1\\AppData\\Local\\Temp\\scoped_dir31468_222427453"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61706"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "eb2e900d353e787a66cea7f1c341af72"
+}
+[1739185233.289][INFO]: [eb2e900d353e787a66cea7f1c341af72] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1739185233.289][INFO]: [eb2e900d353e787a66cea7f1c341af72] RESPONSE SetTimeouts
+[1739185233.315][INFO]: [eb2e900d353e787a66cea7f1c341af72] COMMAND Navigate {
+   "url": "https://mi-shop.com/"
+}
+[1739185233.315][INFO]: Waiting for pending navigations...
+[1739185233.316][INFO]: Done waiting for pending navigations. Status: ok
+[1739185233.653][INFO]: Waiting for pending navigations...
+[1739185263.326][SEVERE]: Timed out receiving message from renderer: 29.662
+[1739185263.327][INFO]: Timed out. Stopping navigation...
+[1739185263.336][SEVERE]: Timed out receiving message from renderer: 29.662
+[1739185263.337][INFO]: Done waiting for pending navigations. Status: timeout: Timed out receiving message from renderer: 29.662
+[1739185263.337][INFO]: [eb2e900d353e787a66cea7f1c341af72] RESPONSE Navigate ERROR timeout: Timed out receiving message from renderer: 29.662
+  (Session info: chrome=132.0.6834.160)
+[1739185263.518][INFO]: [eb2e900d353e787a66cea7f1c341af72] COMMAND Quit {
+}
+[1739185263.832][INFO]: [eb2e900d353e787a66cea7f1c341af72] RESPONSE Quit

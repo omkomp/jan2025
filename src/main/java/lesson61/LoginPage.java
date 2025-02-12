@@ -9,8 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 
 public class LoginPage {
     WebDriver driver;
@@ -22,14 +20,14 @@ public class LoginPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver, Duration.ofMillis(5000));
-        actions = new Actions(driver);
-        cookie = new Cookie("auth_access_token", "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTE3NDMyO" +
-                "TQsInJuZCI6IjNjN2VhODcwZmQ5MzYyNWY3ZWM4MWE1MGYwOTkwYTczZGFhYTA3NDMwYTA5MWM4YTgzZTgyNmUxZjY1OWFmZTIiLC" +
-                "J1c2VySWQiOiI0NTZhMDJkOS0yMDU3LWY1MTItYzM2Mi1hZmViZDlkY2Y3NWQiLCJ1c2VyTmFtZSI6IiJ9.MEYCIQCTfR5zKdpucmf" +
-                "h6N0ih33hXDMWzeuImrUjvIUSoSmJUQIhALiyxZJmOfUk5lCD62FNH2tcHc3SXk8r_saYruneAFhU");
-        cookieAuth = new Cookie("auth_ssid", "7fd85eaa24f27e7a2fb7145ee4f8fdd1c27da307ae8e95d7e69b09ff1a6fbd4a");
-        auth_public_uid = new Cookie("auth_public_uid", "a903dc06d0bbc5851734405f58bfdff9");
-        auth_refresh_token = new Cookie("auth_refresh_token", "7b967b03b7f866ad90c08c02aa3b519cc6984623bc4f8b8a442336902fdd027d");
+//        actions = new Actions(driver);
+//        cookie = new Cookie("auth_access_token", "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTE3NDMyO" +
+//                "TQsInJuZCI6IjNjN2VhODcwZmQ5MzYyNWY3ZWM4MWE1MGYwOTkwYTczZGFhYTA3NDMwYTA5MWM4YTgzZTgyNmUxZjY1OWFmZTIiLC" +
+//                "J1c2VySWQiOiI0NTZhMDJkOS0yMDU3LWY1MTItYzM2Mi1hZmViZDlkY2Y3NWQiLCJ1c2VyTmFtZSI6IiJ9.MEYCIQCTfR5zKdpucmf" +
+//                "h6N0ih33hXDMWzeuImrUjvIUSoSmJUQIhALiyxZJmOfUk5lCD62FNH2tcHc3SXk8r_saYruneAFhU");
+//        cookieAuth = new Cookie("auth_ssid", "7fd85eaa24f27e7a2fb7145ee4f8fdd1c27da307ae8e95d7e69b09ff1a6fbd4a");
+//        auth_public_uid = new Cookie("auth_public_uid", "a903dc06d0bbc5851734405f58bfdff9");
+//        auth_refresh_token = new Cookie("auth_refresh_token", "7b967b03b7f866ad90c08c02aa3b519cc6984623bc4f8b8a442336902fdd027d");
 
     }
 
@@ -37,10 +35,10 @@ public class LoginPage {
 //    private WebElement LoginButton;
 
     @FindBy(xpath = "//button[.='Войти']")
-    private WebElement loginButton;
+    public WebElement loginButton;
 
     @FindBy(xpath = "//div[.='Войти с паролем']")
-    private WebElement enterWithPassword;
+    public WebElement enterWithPassword;
 
    //@Step("Клик на кнопку авторизоваться")
     public LoginPage clickLoginButton() {
@@ -51,14 +49,14 @@ public class LoginPage {
     }
 
   // @Step("Авторизация по кукам")
-    public LoginPage loginCooki() {
-        driver.manage().addCookie(cookie);
-        driver.manage().addCookie(cookieAuth);
-        driver.manage().addCookie(auth_refresh_token);
-        driver.manage().addCookie(auth_public_uid);
-        driver.navigate().refresh();
-        return this;
-    }
+//    public LoginPage loginCooki() {
+//        driver.manage().addCookie(cookie);
+//        driver.manage().addCookie(cookieAuth);
+//        driver.manage().addCookie(auth_refresh_token);
+//        driver.manage().addCookie(auth_public_uid);
+//        driver.navigate().refresh();
+//        return this;
+//    }
 
     @FindBy(xpath = "//input[@autocomplete=\"username\"]")
     private WebElement login;

@@ -1,0 +1,359 @@
+[1739186133.905][INFO]: Starting ChromeDriver 132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408}) on port 7424
+[1739186133.905][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1739186133.911][INFO]: ChromeDriver was started successfully on port 7424
+[1739186134.199][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--disable-search-engine-choice-screen", "--unsafely-disable-devtools-self-xss-warnings", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "autofill.credit_card_enabled": false,
+               "autofill.profile_enabled": false,
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Air 13\\git\\testAuto1\\build\\downloads\\1739186133438_38228_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "profile.password_manager_leak_detection": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1739186134.200][INFO]: Browser search. Trying... C:\Users\Air 13\.cache\selenium\chromedriver\win64\132.0.6834.159\chrome.exe
+[1739186134.200][INFO]: Browser search. Trying... C:\Users\Air 13\.cache\selenium\chromedriver\win64\132.0.6834.159\chrome.exe
+[1739186134.200][INFO]: Browser search. Trying... C:\Users\Air 13\.cache\selenium\chromedriver\win64\132.0.6834.159\chromium.exe
+[1739186134.203][INFO]: Browser search. Trying... C:\Users\Air 13\AppData\Local\Google\Chrome\Application\chrome.exe
+[1739186134.203][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1739186134.203][INFO]: Browser search. Trying... C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1739186134.204][INFO]: Browser search. Found at  C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1739186134.204][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Air 13\\git\\testAuto1\\build\\downloads\\1739186133438_38228_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false,
+      "password_manager_leak_detection": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1739186134.205][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1739186134.206][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1739186134.206][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1739186134.208][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-search-engine-choice-screen --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --unsafely-disable-devtools-self-xss-warnings --use-mock-keychain --user-data-dir="C:\Users\AIR13~1\AppData\Local\Temp\scoped_dir18348_1964018992" --window-size=1920,1080 data:,
+[1739186134.878][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1739186134.942][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "132.0.6834.160",
+      "chrome": {
+         "chromedriverVersion": "132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408})",
+         "userDataDir": "C:\\Users\\AIR13~1\\AppData\\Local\\Temp\\scoped_dir18348_1964018992"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63873"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e0fd528574776f08d56c904cc9d7090f"
+}
+[1739186135.387][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1739186135.387][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE SetTimeouts
+[1739186135.403][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND Navigate {
+   "url": "https://www.dns-shop.ru"
+}
+[1739186135.403][INFO]: Waiting for pending navigations...
+[1739186135.405][INFO]: Done waiting for pending navigations. Status: ok
+[1739186135.532][INFO]: Waiting for pending navigations...
+[1739186136.312][INFO]: Done waiting for pending navigations. Status: ok
+[1739186136.312][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE Navigate
+[1739186141.532][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186141.532][INFO]: Waiting for pending navigations...
+[1739186141.533][INFO]: Done waiting for pending navigations. Status: ok
+[1739186141.545][INFO]: Waiting for pending navigations...
+[1739186141.546][INFO]: Done waiting for pending navigations. Status: ok
+[1739186141.546][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186141.792][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186141.792][INFO]: Waiting for pending navigations...
+[1739186141.793][INFO]: Done waiting for pending navigations. Status: ok
+[1739186141.800][INFO]: Waiting for pending navigations...
+[1739186141.801][INFO]: Done waiting for pending navigations. Status: ok
+[1739186141.801][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186142.009][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186142.009][INFO]: Waiting for pending navigations...
+[1739186142.010][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.016][INFO]: Waiting for pending navigations...
+[1739186142.017][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.017][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186142.229][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186142.229][INFO]: Waiting for pending navigations...
+[1739186142.230][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.237][INFO]: Waiting for pending navigations...
+[1739186142.237][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.238][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186142.459][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186142.459][INFO]: Waiting for pending navigations...
+[1739186142.460][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.467][INFO]: Waiting for pending navigations...
+[1739186142.468][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.468][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186142.676][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186142.676][INFO]: Waiting for pending navigations...
+[1739186142.678][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.684][INFO]: Waiting for pending navigations...
+[1739186142.685][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.685][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186142.893][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186142.893][INFO]: Waiting for pending navigations...
+[1739186142.894][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.901][INFO]: Waiting for pending navigations...
+[1739186142.902][INFO]: Done waiting for pending navigations. Status: ok
+[1739186142.902][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186143.112][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186143.112][INFO]: Waiting for pending navigations...
+[1739186143.113][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.120][INFO]: Waiting for pending navigations...
+[1739186143.121][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.121][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186143.329][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186143.329][INFO]: Waiting for pending navigations...
+[1739186143.331][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.337][INFO]: Waiting for pending navigations...
+[1739186143.338][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.338][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186143.549][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186143.549][INFO]: Waiting for pending navigations...
+[1739186143.550][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.556][INFO]: Waiting for pending navigations...
+[1739186143.557][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.557][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186143.770][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186143.770][INFO]: Waiting for pending navigations...
+[1739186143.771][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.778][INFO]: Waiting for pending navigations...
+[1739186143.779][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.779][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186143.987][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186143.987][INFO]: Waiting for pending navigations...
+[1739186143.988][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.995][INFO]: Waiting for pending navigations...
+[1739186143.996][INFO]: Done waiting for pending navigations. Status: ok
+[1739186143.996][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186144.203][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186144.203][INFO]: Waiting for pending navigations...
+[1739186144.204][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.212][INFO]: Waiting for pending navigations...
+[1739186144.214][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.214][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186144.419][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186144.419][INFO]: Waiting for pending navigations...
+[1739186144.420][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.428][INFO]: Waiting for pending navigations...
+[1739186144.429][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.429][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186144.635][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186144.635][INFO]: Waiting for pending navigations...
+[1739186144.637][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.645][INFO]: Waiting for pending navigations...
+[1739186144.646][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.646][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186144.853][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186144.853][INFO]: Waiting for pending navigations...
+[1739186144.855][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.862][INFO]: Waiting for pending navigations...
+[1739186144.863][INFO]: Done waiting for pending navigations. Status: ok
+[1739186144.863][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186145.085][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186145.085][INFO]: Waiting for pending navigations...
+[1739186145.086][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.094][INFO]: Waiting for pending navigations...
+[1739186145.095][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.095][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186145.302][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[contains(.,'Все верно')]"
+}
+[1739186145.302][INFO]: Waiting for pending navigations...
+[1739186145.304][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.314][INFO]: Waiting for pending navigations...
+[1739186145.315][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.315][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(.,'Все верно')]"}
+  (Session info: chrome=132.0.6834.160)
+[1739186145.541][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1739186145.542][INFO]: Waiting for pending navigations...
+[1739186145.543][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.548][INFO]: Waiting for pending navigations...
+[1739186145.549][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.549][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Ctitle>HTTP 403\u003C/title>\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \u003Cstyle>\n        html {font-family: \"Helvet..."
+[1739186145.553][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND Screenshot {
+}
+[1739186145.553][INFO]: Waiting for pending navigations...
+[1739186145.554][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.697][INFO]: Waiting for pending navigations...
+[1739186145.698][INFO]: Done waiting for pending navigations. Status: ok
+[1739186145.698][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB3AAAAPZCAIAAABvQiwkAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9oG3e+7/+3bpzGcRNiOz0nNnhLZRzIGJtGdhc24e7l1uVcOBIOxKELK2HD1t0D35OehT1WApuT0z+63Sw40h7Ybc8f99RbsJEWTqgDMdL+sdSFew7pwtZWS..."
+[1739186145.742][INFO]: [e0fd528574776f08d56c904cc9d7090f] COMMAND Quit {
+}
+[1739186145.862][INFO]: [e0fd528574776f08d56c904cc9d7090f] RESPONSE Quit
